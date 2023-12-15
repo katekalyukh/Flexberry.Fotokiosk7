@@ -28,31 +28,31 @@ export default Controller.extend({
             link: 'i-i-s-fotokiosk7-отправ-на-почту-l',
             caption: i18n.t('forms.application.sitemap.fotokiosk7.i-i-s-fotokiosk7-отправ-на-почту-l.caption'),
             title: i18n.t('forms.application.sitemap.fotokiosk7.i-i-s-fotokiosk7-отправ-на-почту-l.title'),
-            icon: 'address card',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-fotokiosk7-клиент-l',
             caption: i18n.t('forms.application.sitemap.fotokiosk7.i-i-s-fotokiosk7-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.fotokiosk7.i-i-s-fotokiosk7-клиент-l.title'),
-            icon: 'book',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-fotokiosk7-сделать-фото-l',
             caption: i18n.t('forms.application.sitemap.fotokiosk7.i-i-s-fotokiosk7-сделать-фото-l.caption'),
             title: i18n.t('forms.application.sitemap.fotokiosk7.i-i-s-fotokiosk7-сделать-фото-l.title'),
-            icon: 'tags',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-fotokiosk7-печать-l',
             caption: i18n.t('forms.application.sitemap.fotokiosk7.i-i-s-fotokiosk7-печать-l.caption'),
             title: i18n.t('forms.application.sitemap.fotokiosk7.i-i-s-fotokiosk7-печать-l.title'),
-            icon: 'archive',
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-fotokiosk7-оплата-l',
             caption: i18n.t('forms.application.sitemap.fotokiosk7.i-i-s-fotokiosk7-оплата-l.caption'),
             title: i18n.t('forms.application.sitemap.fotokiosk7.i-i-s-fotokiosk7-оплата-l.title'),
-            icon: 'archive',
+            icon: 'phone',
             children: null
           }]
         }

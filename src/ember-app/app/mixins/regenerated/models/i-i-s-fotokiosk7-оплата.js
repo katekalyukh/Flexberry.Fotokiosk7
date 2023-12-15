@@ -54,9 +54,9 @@ export let defineProjections = function (modelClass) {
     дата: attr('Дата оплаты', { index: 1 }),
     время: attr('Время оплаты', { index: 2 }),
     сделатьФото: belongsTo('i-i-s-fotokiosk7-сделать-фото', 'Сделанное фото', {
-      категорФото: attr('Сделанное фото', { index: 3 }),
-      цена: attr('Стоимость', { index: 4 })
-    }, { index: -1, hidden: true })
+      категорФото: attr('Категория', { index: 4 }),
+      цена: attr('Стоимость', { index: 5 })
+    }, { index: 3 })
   });
 
   modelClass.defineProjection('ОплатаL', 'i-i-s-fotokiosk7-оплата', {
@@ -64,8 +64,8 @@ export let defineProjections = function (modelClass) {
     дата: attr('Дата оплаты', { index: 1 }),
     время: attr('Время оплаты', { index: 2 }),
     сделатьФото: belongsTo('i-i-s-fotokiosk7-сделать-фото', 'Сделанное фото', {
-      категорФото: attr('Сделанное фото', { index: 3 }),
-      цена: attr('Стоимость', { index: 4 })
-    }, { index: -1, hidden: true })
+      категорФото: attr('Категория фото', { index: 4 }),
+      цена: attr('Стоимость', { index: 5 })
+    }, { index: 3 })
   });
 };

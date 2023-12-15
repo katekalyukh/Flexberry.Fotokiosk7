@@ -24,6 +24,22 @@
       {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
     </div>
   </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-fotokiosk7-печать-e.сделатьФото-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.сделатьФото
+      relationName="сделатьФото"
+      projection="СделатьФотоL"
+      title=(t "forms.i-i-s-fotokiosk7-печать-e.сделатьФото-caption")
+      readonly=readonly
+      componentName="сделатьФотоLookup"
+      class=(if (v-get validationModel "сделатьФото" "isInvalid") "error")
+      data-test-i-i-s-fotokiosk7-печать-e-сделатьФото=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "сделатьФото" "message")}}
+  </div>
   <div class="field" data-test-i-i-s-fotokiosk7-печать-e-сделатьФото-категорФото="true">
     <label>{{t "forms.i-i-s-fotokiosk7-печать-e.сделатьФото.категорФото-caption"}}</label>
     {{flexberry-dropdown

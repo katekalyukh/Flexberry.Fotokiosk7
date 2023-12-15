@@ -28,17 +28,17 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ПечатьE', 'i-i-s-fotokiosk7-печать', {
     сделатьФото: belongsTo('i-i-s-fotokiosk7-сделать-фото', 'Сделанное фото', {
-      категорФото: attr('Сделанное фото', { index: 0 }),
-      колВоФото: attr('Количество фото', { index: 2, hidden: true })
-    }, { index: -1, hidden: true }),
-    размер: attr('Размер фото', { index: 1 })
+      категорФото: attr('Категория фото', { index: 1 }),
+      колВоФото: attr('Количество фото', { index: 3, hidden: true })
+    }, { index: 0 }),
+    размер: attr('Размер фото', { index: 2 })
   });
 
   modelClass.defineProjection('ПечатьL', 'i-i-s-fotokiosk7-печать', {
     сделатьФото: belongsTo('i-i-s-fotokiosk7-сделать-фото', 'Сделанное фото', {
-      категорФото: attr('Сделанное фото', { index: 0 }),
-      колВоФото: attr('Количество фото', { index: 2 })
-    }, { index: -1, hidden: true }),
-    размер: attr('Размер фото', { index: 1 })
+      категорФото: attr('Категория фото', { index: 1 }),
+      колВоФото: attr('Количество фото', { index: 3 })
+    }, { index: 0 }),
+    размер: attr('Размер фото', { index: 2 })
   });
 };

@@ -87,18 +87,18 @@
           "attrs": [
             {
               "name": "категорФото",
-              "caption": "Сделанное фото",
+              "caption": "Категория",
               "hidden": false,
-              "index": 3
+              "index": 4
             },
             {
               "name": "цена",
               "caption": "Стоимость",
               "hidden": false,
-              "index": 4
+              "index": 5
             }
           ],
-          "index": -1,
+          "index": 3,
           "type": "default",
           "caption": "Сделанное фото",
           "name": "сделатьФото",
@@ -141,18 +141,18 @@
           "attrs": [
             {
               "name": "категорФото",
-              "caption": "Сделанное фото",
+              "caption": "Категория фото",
               "hidden": false,
-              "index": 3
+              "index": 4
             },
             {
               "name": "цена",
               "caption": "Стоимость",
               "hidden": false,
-              "index": 4
+              "index": 5
             }
           ],
-          "index": -1,
+          "index": 3,
           "type": "default",
           "caption": "Сделанное фото",
           "name": "сделатьФото",

@@ -37,17 +37,17 @@ export let defineProjections = function (modelClass) {
     фИО: attr('ФИО', { index: 0 }),
     email: attr('Email', { index: 1 }),
     сделатьФото: belongsTo('i-i-s-fotokiosk7-сделать-фото', 'Сделанное фото', {
-      категорФото: attr('Сделанное фото', { index: 2 }),
-      колВоФото: attr('Количество фото', { index: 3 })
-    }, { index: -1, hidden: true })
+      категорФото: attr('Категория фото', { index: 3 }),
+      колВоФото: attr('Количество фото', { index: 4 })
+    }, { index: 2 })
   });
 
   modelClass.defineProjection('ОтправНаПочтуL', 'i-i-s-fotokiosk7-отправ-на-почту', {
     фИО: attr('ФИО', { index: 0 }),
     email: attr('Email', { index: 1 }),
     сделатьФото: belongsTo('i-i-s-fotokiosk7-сделать-фото', 'Сделанное фото', {
-      категорФото: attr('Сделанное фото', { index: 2 }),
-      колВоФото: attr('Количество фото', { index: 3 })
-    }, { index: -1, hidden: true })
+      категорФото: attr('Категория фото', { index: 3 }),
+      колВоФото: attr('Количество фото', { index: 4 })
+    }, { index: 2 })
   });
 };
