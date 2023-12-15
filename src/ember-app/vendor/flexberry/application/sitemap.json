@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Fotokiosk7",
+  "applicationTitle": "Fotokiosk7",
+  "items": [
+    {
+      "link": null,
+      "menuName": "fotokiosk7",
+      "caption": "Fotokiosk7",
+      "title": "Fotokiosk7",
+      "children": [
+        {
+          "link": "i-i-s-fotokiosk7-отправ-на-почту-l",
+          "menuName": null,
+          "caption": "Отправ на почту",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fotokiosk7-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fotokiosk7-сделать-фото-l",
+          "menuName": null,
+          "caption": "Сделать фото",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fotokiosk7-печать-l",
+          "menuName": null,
+          "caption": "Печать",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fotokiosk7-оплата-l",
+          "menuName": null,
+          "caption": "Оплата",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
